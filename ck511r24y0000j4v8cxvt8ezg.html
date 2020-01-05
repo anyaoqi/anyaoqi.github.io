@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="微信小程序,微信小程序模板的使用," />
 
 
 
@@ -83,14 +83,21 @@
 
 
 
+<meta name="description" content="小程序布局-WXML模板的使用我对于小程序模板的理解就是Vue和react中的组件和一样，使用一个模板需要分三步，首先第一步需要定义一个常用的组件，然后第二步在页面中引入，最后一步就是使用模板，使用模板的时候也可以像vue一样往组件中传入数据。 在小程序中新建templates文件夹(这个文件夹也可以叫别的名字)，然后在templates文件夹下创建模板文件夹，我创建一个message模板。  定">
 <meta property="og:type" content="article">
-<meta property="og:title" content="footers">
-<meta property="og:url" content="http://www.anyaoqi.cn/ck50p466r0000t4v8b2pugbzg.html">
+<meta property="og:title" content="小程序布局-WXML模板的使用">
+<meta property="og:url" content="http://www.anyaoqi.cn/ck511r24y0000j4v8cxvt8ezg.html">
 <meta property="og:site_name" content="安耀奇博客">
-<meta property="article:published_time" content="2020-01-05T07:29:38.000Z">
-<meta property="article:modified_time" content="2020-01-05T07:29:38.623Z">
+<meta property="og:description" content="小程序布局-WXML模板的使用我对于小程序模板的理解就是Vue和react中的组件和一样，使用一个模板需要分三步，首先第一步需要定义一个常用的组件，然后第二步在页面中引入，最后一步就是使用模板，使用模板的时候也可以像vue一样往组件中传入数据。 在小程序中新建templates文件夹(这个文件夹也可以叫别的名字)，然后在templates文件夹下创建模板文件夹，我创建一个message模板。  定">
+<meta property="og:image" content="d:%5C%E6%88%91%E7%9A%84%E6%96%87%E6%A1%A3%5C%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%5C%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%88%B0%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98%5C%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%5C%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%B8%83%E5%B1%80-WXML%E6%A8%A1%E6%9D%BF%E7%9A%84%E4%BD%BF%E7%94%A8%5C1.png">
+<meta property="og:image" content="d:%5C%E6%88%91%E7%9A%84%E6%96%87%E6%A1%A3%5C%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%5C%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%88%B0%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98%5C%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%5C%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%B8%83%E5%B1%80-WXML%E6%A8%A1%E6%9D%BF%E7%9A%84%E4%BD%BF%E7%94%A8%5C2.png">
+<meta property="article:published_time" content="2020-01-05T13:20:44.000Z">
+<meta property="article:modified_time" content="2020-01-05T13:22:56.096Z">
 <meta property="article:author" content="AnYaoqi">
+<meta property="article:tag" content="微信小程序">
+<meta property="article:tag" content="微信小程序模板的使用">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="d:%5C%E6%88%91%E7%9A%84%E6%96%87%E6%A1%A3%5C%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%5C%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%88%B0%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98%5C%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%5C%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%B8%83%E5%B1%80-WXML%E6%A8%A1%E6%9D%BF%E7%9A%84%E4%BD%BF%E7%94%A8%5C1.png">
 
 
 
@@ -120,13 +127,13 @@
 
 
 
-  <link rel="canonical" href="http://www.anyaoqi.cn/ck50p466r0000t4v8b2pugbzg.html"/>
+  <link rel="canonical" href="http://www.anyaoqi.cn/ck511r24y0000j4v8cxvt8ezg.html"/>
 
 
 
 
 
-  <title>footers | 安耀奇博客</title>
+  <title>小程序布局-WXML模板的使用 | 安耀奇博客</title>
   
 
 
@@ -240,12 +247,12 @@
   
   
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-categories" itemscope itemtype="http://schema.org/Article">
   
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.anyaoqi.cn/ck50p466r0000t4v8b2pugbzg.html">
+    <link itemprop="mainEntityOfPage" href="http://www.anyaoqi.cn/ck511r24y0000j4v8cxvt8ezg.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="AnYaoqi">
@@ -262,7 +269,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">footers</h1>
+          <h1 class="post-title" itemprop="name headline">小程序布局-WXML模板的使用</h1>
         
 
         <div class="post-meta">
@@ -274,7 +281,7 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-01-05T15:29:38+08:00">
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-01-05T21:20:44+08:00">
                 2020-01-05
               </time>
             
@@ -284,6 +291,39 @@
             
           </span>
 
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/web%E5%89%8D%E7%AB%AF/" itemprop="url" rel="index">
+                    <span itemprop="name">web前端</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/web%E5%89%8D%E7%AB%AF/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/" itemprop="url" rel="index">
+                    <span itemprop="name">微信小程序</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -312,7 +352,23 @@
       
 
       
-        
+        <h1 id="小程序布局-WXML模板的使用"><a href="#小程序布局-WXML模板的使用" class="headerlink" title="小程序布局-WXML模板的使用"></a>小程序布局-WXML模板的使用</h1><p>我对于小程序模板的理解就是Vue和react中的组件和一样，使用一个模板需要分三步，首先第一步需要定义一个常用的组件，然后第二步在页面中引入，最后一步就是使用模板，使用模板的时候也可以像vue一样往组件中传入数据。</p>
+<p>在小程序中新建templates文件夹(这个文件夹也可以叫别的名字)，然后在templates文件夹下创建模板文件夹，我创建一个message模板。</p>
+<p><img src="D:%5C%E6%88%91%E7%9A%84%E6%96%87%E6%A1%A3%5C%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%5C%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%88%B0%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98%5C%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%5C%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%B8%83%E5%B1%80-WXML%E6%A8%A1%E6%9D%BF%E7%9A%84%E4%BD%BF%E7%94%A8%5C1.png" alt="小程序图片展示"></p>
+<h2 id="定义模板"><a href="#定义模板" class="headerlink" title="定义模板"></a>定义模板</h2><p><code>templates/message/message.wxml</code></p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">template</span> <span class="attr">name</span>=<span class="string">"message"</span>&gt;</span></span><br><span class="line"></span><br><span class="line"> 	 <span class="tag">&lt;<span class="name">view</span> &gt;</span>Hello, <span class="tag">&lt;<span class="name">text</span> <span class="attr">class</span>=<span class="string">"user"</span>&gt;</span>&#123;&#123;user&#125;&#125;<span class="tag">&lt;/<span class="name">text</span>&gt;</span> <span class="tag">&lt;/<span class="name">view</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">template</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p><code>templates/message/message.wxss</code></p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.user</span> &#123;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#ff0000</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="引入模板"><a href="#引入模板" class="headerlink" title="引入模板"></a>引入模板</h2><p><code>pages/page.wxml</code></p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">text</span>&gt;</span>模板的使用<span class="tag">&lt;/<span class="name">text</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">import</span>  <span class="attr">src</span>=<span class="string">"../../templates/message/message.wxml"</span> /&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="使用模板和传递数据"><a href="#使用模板和传递数据" class="headerlink" title="使用模板和传递数据"></a>使用模板和传递数据</h2><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">template</span> <span class="attr">is</span>=<span class="string">"message"</span>  <span class="attr">data</span>=<span class="string">"&#123;&#123; user:'AnYaoqi' &#125;&#125;"</span>&gt;</span><span class="tag">&lt;/<span class="name">template</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>显示效果</p>
+<p><img src="D:%5C%E6%88%91%E7%9A%84%E6%96%87%E6%A1%A3%5C%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%5C%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%88%B0%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98%5C%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%5C%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%B8%83%E5%B1%80-WXML%E6%A8%A1%E6%9D%BF%E7%9A%84%E4%BD%BF%E7%94%A8%5C2.png" alt="显示效果"></p>
+
       
     </div>
     
@@ -327,6 +383,14 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/" rel="tag"># 微信小程序</a>
+          
+            <a href="/tags/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E6%A8%A1%E6%9D%BF%E7%9A%84%E4%BD%BF%E7%94%A8/" rel="tag"># 微信小程序模板的使用</a>
+          
+        </div>
+      
 
       
       
@@ -336,8 +400,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/ck4qtx4qn00086ov8a7jccspi.html" rel="next" title="微信小小程序入门学习笔记">
-                <i class="fa fa-chevron-left"></i> 微信小小程序入门学习笔记
+              <a href="/ck50qstrn0000nsv82qrkf8xs.html" rel="next" title="css经典底部布局sticky footers">
+                <i class="fa fa-chevron-left"></i> css经典底部布局sticky footers
               </a>
             
           </div>
@@ -345,10 +409,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/ck50qstrn0000nsv82qrkf8xs.html" rel="prev" title="css经典底部布局sticky footers">
-                css经典底部布局sticky footers <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -400,8 +460,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -488,6 +557,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#小程序布局-WXML模板的使用"><span class="nav-number">1.</span> <span class="nav-text">小程序布局-WXML模板的使用</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#定义模板"><span class="nav-number">1.1.</span> <span class="nav-text">定义模板</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#引入模板"><span class="nav-number">1.2.</span> <span class="nav-text">引入模板</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#使用模板和传递数据"><span class="nav-number">1.3.</span> <span class="nav-text">使用模板和传递数据</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
