@@ -102,4 +102,13 @@ theme: fluid
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: 'git'
+  repo: 'https://github.com/anyaoqi/anyaoqi.github.io.git'
+  branch: 'master'
+  message: ''
+
+# hexo-admin authentification
+admin:
+  username: anyaoqi
+  password_hash: $2a$10$ARtMxMBkvCj7RBxdU2hg2.6yxdmT5abp6gQEQzfLWcWu4v3S6bfVu
+  secret: me
