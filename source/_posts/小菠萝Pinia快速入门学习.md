@@ -1,7 +1,10 @@
 ---
 title: 小菠萝Pinia快速入门学习
 date: 2022-09-24 18:51:17
-tags:
+tags:  
+  - pinia
+categories: 
+  - web前端
 ---
 
 **Vue3状态管理工具-Pinia快速入门学习**
