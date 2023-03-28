@@ -1,0 +1,310 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"><title>AnYaoqi</title><meta name="author" content="John Doe"><meta name="copyright" content="John Doe"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta property="og:type" content="website">
+<meta property="og:title" content="AnYaoqi">
+<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:site_name" content="AnYaoqi">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"prismjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  }
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'AnYaoqi',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2023-03-28 18:58:51'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+    win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
+      const link = document.createElement('link')
+      link.rel = 'stylesheet'
+      link.href = url
+      if (id) link.id = id
+      link.onerror = reject
+      link.onload = link.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        link.onload = link.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(link)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.2.0"></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><script>const preloader = {
+  endLoading: () => {
+    document.body.style.overflow = 'auto';
+    document.getElementById('loading-box').classList.add("loaded")
+  },
+  initLoading: () => {
+    document.body.style.overflow = '';
+    document.getElementById('loading-box').classList.remove("loaded")
+
+  }
+}
+window.addEventListener('load',()=> { preloader.endLoading() })
+
+if (false) {
+  document.addEventListener('pjax:send', () => { preloader.initLoading() })
+  document.addEventListener('pjax:complete', () => { preloader.endLoading() })
+}</script><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">8</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">6</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">1</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url('/img/bg.png')"><nav id="nav"><span id="blog-info"><a href="/" title="AnYaoqi"><span class="site-name">AnYaoqi</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">AnYaoqi</h1></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/post/react%E8%B7%A8%E5%9F%9F%E5%AE%89%E8%A3%85Http-proxy-middleware%E6%8A%A5%E9%94%99.html" title="react跨域安装Http-proxy-middleware报错">react跨域安装Http-proxy-middleware报错</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-10-16T12:46:01.000Z" title="发表于 2022-10-16 20:46:01">2022-10-16</time></span></div><div class="content">react跨域安装Http-proxy-middleware报错：proxy is not a function查看了http-proxy-middleware的官方文档，发现最新的1.0.0版本已经对模块的引用作了明确的要求
+
+0.x.x版本的引用方式
+
+const proxy = require('http-proxy-middleware');
+
+
+1.0.0版本的引用方式
+
+const &#123; createProxyMiddleware &#125; = require('http-proxy-middleware');
+
+</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/post/HTML%E5%A6%82%E4%BD%95%E4%BF%AE%E6%94%B9placeholder%E5%B1%9E%E6%80%A7%E4%B8%AD%E6%96%87%E5%AD%97%E9%A2%9C%E8%89%B2.html" title="HTML如何修改placeholder属性中文字颜色">HTML如何修改placeholder属性中文字颜色</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-10-16T12:36:11.000Z" title="发表于 2022-10-16 20:36:11">2022-10-16</time></span></div><div class="content">​		今天在群里看到群友问了一个这样的问题，就是如何更改placeholder属性中文字的颜色，以前用过这属性，却是没更改过颜色，于是便试了试，中途遇到些问题，查找资料后特来总结一下。
+　　熟悉HTML5的人应该都知道，placeholder这个属性是HTML5中增加的属性，该属性的作用是规定可描述输入字段预期值的简短的提示信息，该提示会在用户输入之前显示在输入字段中，会在用户输入字段后消失，有些浏览器则是获得焦点后该提示便消失（如Safari、IE）
+适用范围：placeholder 属性适用于下面的 input 类型：text、search、url、tel、email 和 password。
+因为是HTML5中新增的属性，所以会存在兼容性问题。下面说说浏览器的支持情况：
+IE10+、Firefox、Opera、Chrome 和 Safari 均支持 placeholder 属性。IE9及以下版本不支持input的placeholder属性。
+placeholder的用法，举例：
+&lt;input type="text" placeholder="请输入您要搜索的内容！"> 
+
+效 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/post/%E5%B0%8F%E8%8F%A0%E8%90%9DPinia%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0.html" title="小菠萝Pinia快速入门学习">小菠萝Pinia快速入门学习</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-09-24T10:51:17.000Z" title="发表于 2022-09-24 18:51:17">2022-09-24</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/web%E5%89%8D%E7%AB%AF/">web前端</a></span></div><div class="content">Vue3状态管理工具-Pinia快速入门学习
+什么是Pinia？
+pinia是vue3官方的状态管理工具，当然vue2也可以用。vue2中的状态管理工具是vuex，vue3中不再使用vuex，推荐使用的是pinia, 和vuex差不多，但比vuex更方便、更强、更好。所以你也可以把pinia理解为vuex的升级版。
+Pinia官网链接：https://pinia.vuejs.org/
+Pinia模块
+State
+Getters
+Actions
+Plugins
+
+用过Vuex的人可能会觉得我少写了一个Mutations，我没写错，pinia确实是没有Mutains和modules的。
+以前vuex中是有mutains主要是用户不可以直接修改state，但在pinia中是可以对state直接修改的，所以也就不需要mutains。
+在线示例点击查看vue3+pinia示例
+下载GitHub地址：https://github.com/vuejs/pinia
+vue3
+npm install pinia
+
+
+如果你使用的是vue2除了下载上面的pinia还需要下载一个@vue&#x2F;comp ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/post/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E6%80%BB%E7%BB%93--Js%E7%AF%87.html" title="前端面试总结--JS篇">前端面试总结--JS篇</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-09-18T10:20:15.000Z" title="发表于 2022-09-18 18:20:15">2022-09-18</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/web%E5%89%8D%E7%AB%AF/">web前端</a></span></div><div class="content">数据类型js数据类型有哪些？
+
+基本数据类型：Number、Boolean、String、Null、Undefined、Symbol(ES6)、bigInt
+引用数据类型：Object、Array、Function、RegExp、Date
+
+闭包什么是闭包 
+​	闭包就是在函数内可以访问其他函数内的变量​	可以通过在函数内返回函数实现
+​	缺点：比较耗费内存、使用不当会造成内存溢出的问题
+作用域局部作用域、全局作用域的区别
+、	局部作用域就是大括号内的区域，在此区域内可以访问定义的变量。​	全局作用域就是在任何地方都可以访问的区域，例如使用var定义的变量
+堆栈对栈和堆的理解
+​	栈内存：存储基本类型，Boolean、Number、String、Undefined、Null。变量赋值时，赋值的是变量本身。​	堆内存：存储引用类型，Function，Array，Object，将变量赋值时，赋值的是指针，不是变量本身。
+原型、原型链、继承对原型、原型链的理解
+​	任何一个普通函数、类的身上都有prototype属性，prototype指向的就是该对象的原型。
+​	当访问一个对象的属性时，首 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/post/%E4%BB%80%E4%B9%88%E6%98%AF%E9%98%B2%E6%8A%96%E5%92%8C%E8%8A%82%E6%B5%81-%E6%9C%89%E4%BB%80%E4%B9%88%E5%8C%BA%E5%88%AB.html" title="什么是防抖和节流?有什么区别">什么是防抖和节流?有什么区别</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-09-04T04:39:54.000Z" title="发表于 2022-09-04 12:39:54">2022-09-04</time></span></div><div class="content">防抖防抖：防止连续多次触发，n秒内连续触发则只触发最后一次。目的：只执行一次原理：触发之前判断是否已经触发，已经触发就取消执行上一次的事件，然后执行本次事件。
+// 防抖函数
+function debounce(fn, delay = 200) &#123;
+  let timer = 0
+  return function() &#123;
+    // 如果这个函数已经被触发了
+    if(timer)&#123;
+      clearTimeout(timer)
+    &#125;
+    timer = setTimeout(() => &#123;
+      fn.apply(this, arguments); // 透传 this和参数
+      timer = 0
+    &#125;,delay)
+  &#125;
+&#125;
+
+节流节流：防止连续多次触发，n秒内连续多次触发则n秒内执行一次。目的：减少执行次数
+原理：触发之前判断是否已经触发，已经触发就取消当前本次执行事件，继续执行上一个事件。
+// 节流函数
+function throttle(fn, d ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/post/%E4%BD%BF%E7%94%A8css%E7%A6%81%E7%94%A8%E7%82%B9%E5%87%BB%E4%BA%8B%E4%BB%B6.html" title="使用css禁用点击事件">使用css禁用点击事件</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2019-11-20T05:43:28.000Z" title="发表于 2019-11-20 13:43:28">2019-11-20</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/web%E5%89%8D%E7%AB%AF/">web前端</a></span></div><div class="content">js阻止默认行为：event.preventDefault() 或 return falseJs阻止事件冒泡： evnet.stopPropagation() 或  e.cancelBubble = true （IE）
+使用css禁用点击事件&amp;emsp;&amp;emsp;在css中有很多实用但平常不常用的属性，比如今天要说的 pointer-events属性。这个css属性的作用就是控制标签的事件是否可用，如果在css里面把标签的这个属性值改为none，那么这个标签就失去了任何的事件，也就做到了禁用点击事件的效果，即使在js里面已经绑定过事件也是不可点击的。
+pointer-events 的作用：1 阻止用户的点击动作产生任何效果
+2 阻止缺省鼠标指针的显示
+3 阻止CSS里的hover和active状态的变化触发事件
+4 阻止JavaScript点击动作触发的事件
+示例： 
+    .disabled &#123;
+        pointer-events: none;
+        cursor: default;
+        opacity: 0.6;
+    ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/post/JavaScript%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6%E9%9D%A2%E8%AF%95%E9%A2%98.html" title="JavaScript事件机制面试题">JavaScript事件机制面试题</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2019-11-18T00:39:11.000Z" title="发表于 2019-11-18 08:39:11">2019-11-18</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/web%E5%89%8D%E7%AB%AF/">web前端</a></span></div><div class="content">JS事件处理机制&#x2F;微任务和宏任务
+任务、微任务、队列和时间表: https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/
+
+js代码执行的流程是怎样的？
+
+js代码执行流程：同步代码先执行完 &gt; 进入事件循环机制开始执行异步代码(宏任务和微任务)
+
+JavaScript 是单线程，如何执行异步代码？
+
+通过事件循环机制执行异步代码
+
+什么是js事件循环机制？
+
+事件循环机制： 事件循环分为微任务和宏任务，先执行微任务，然后dom渲染，再执行宏任务
+微任务(microtasks)：Promise、 
+宏任务(macrotasks)：setTimeout、setInterval
+
+
+
+如何手动创建一个微任务事件？
+
+创建一个微任务：queueMicrotask
+
+queueMicrotask: https://developer.mozilla.org/zh-CN/docs/Web/API/queueMicrotask
+
+console.log("a");
+queueMicrotask(()  ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/post/postcss-pxtorem.html" title="vue-cli3 项目使用postcss-pxtorem解决移动端适配的问题">vue-cli3 项目使用postcss-pxtorem解决移动端适配的问题</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2019-11-18T00:39:11.000Z" title="发表于 2019-11-18 08:39:11">2019-11-18</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/web%E5%89%8D%E7%AB%AF/">web前端</a></span></div><div class="content">一. 项目中引入lib-flexiblelib-flexible 会自动在html的head中添加一个meta name&#x3D;”viewport”的标签，同时会自动设置html的font-size为屏幕宽度除以10，也就是1rem等于html根节点的font-size。假如设计稿的宽度是750px，此时1rem应该等于75px。假如量的某个元素的宽度是150px，那么在css里面定义这个元素的宽度就是 width: 2rem。
+
+安装 lib-flexible 
+ npm install lib-flexible --save
+
+
+在 main.js 中引入
+ import &quot;lib-flexible&quot;;
+
+
+
+二. 项目中引入 postcss-pxtorempostcss-pxtorem: postcss的一个插件，主要是帮你把px转换成对应的rem；然后：还要用js代码去动态算根目录应该有的字体大小，反正就是一段js代码去动态获取屏幕宽度！
+
+安装 postcss-pxtorem
+ npm install postcss-pxtorem -D 
+
+
+在vu ...</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">John Doe</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">8</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">6</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">1</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/anyaoqi"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/post/react%E8%B7%A8%E5%9F%9F%E5%AE%89%E8%A3%85Http-proxy-middleware%E6%8A%A5%E9%94%99.html" title="react跨域安装Http-proxy-middleware报错">react跨域安装Http-proxy-middleware报错</a><time datetime="2022-10-16T12:46:01.000Z" title="发表于 2022-10-16 20:46:01">2022-10-16</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/post/HTML%E5%A6%82%E4%BD%95%E4%BF%AE%E6%94%B9placeholder%E5%B1%9E%E6%80%A7%E4%B8%AD%E6%96%87%E5%AD%97%E9%A2%9C%E8%89%B2.html" title="HTML如何修改placeholder属性中文字颜色">HTML如何修改placeholder属性中文字颜色</a><time datetime="2022-10-16T12:36:11.000Z" title="发表于 2022-10-16 20:36:11">2022-10-16</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/post/%E5%B0%8F%E8%8F%A0%E8%90%9DPinia%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0.html" title="小菠萝Pinia快速入门学习">小菠萝Pinia快速入门学习</a><time datetime="2022-09-24T10:51:17.000Z" title="发表于 2022-09-24 18:51:17">2022-09-24</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/post/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E6%80%BB%E7%BB%93--Js%E7%AF%87.html" title="前端面试总结--JS篇">前端面试总结--JS篇</a><time datetime="2022-09-18T10:20:15.000Z" title="发表于 2022-09-18 18:20:15">2022-09-18</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/post/%E4%BB%80%E4%B9%88%E6%98%AF%E9%98%B2%E6%8A%96%E5%92%8C%E8%8A%82%E6%B5%81-%E6%9C%89%E4%BB%80%E4%B9%88%E5%8C%BA%E5%88%AB.html" title="什么是防抖和节流?有什么区别">什么是防抖和节流?有什么区别</a><time datetime="2022-09-04T04:39:54.000Z" title="发表于 2022-09-04 12:39:54">2022-09-04</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>分类</span>
+            
+            </div>
+            <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/web%E5%89%8D%E7%AB%AF/"><span class="card-category-list-name">web前端</span><span class="card-category-list-count">5</span></a></li>
+            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/pinia/" style="font-size: 1.1em; color: #999">pinia</a> <a href="/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/" style="font-size: 1.1em; color: #999">面试题</a> <a href="/tags/css/" style="font-size: 1.1em; color: #999">css</a> <a href="/tags/%E7%A7%BB%E5%8A%A8%E7%AB%AF%E9%80%82%E9%85%8D/" style="font-size: 1.1em; color: #999">移动端适配</a> <a href="/tags/%E9%9D%A2%E8%AF%95/" style="font-size: 1.1em; color: #999">面试</a> <a href="/tags/%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/" style="font-size: 1.1em; color: #999">事件机制</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/10/"><span class="card-archive-list-date">十月 2022</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/09/"><span class="card-archive-list-date">九月 2022</span><span class="card-archive-list-count">3</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2019/11/"><span class="card-archive-list-date">十一月 2019</span><span class="card-archive-list-count">3</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">8</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2023-03-28T10:58:51.661Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer" style="background-image: url('/img/bg.png')"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2023 By John Doe</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">AnYaoqi</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><div class="js-pjax"></div><script defer="defer" id="ribbon" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-ribbon.min.js" size="150" alpha="0.6" zIndex="-1" mobile="true" data-click="true"></script><script defer="defer" id="fluttering_ribbon" mobile="flase" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-fluttering-ribbon.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = true;
+POWERMODE.mobile = false;
+document.body.addEventListener('input', POWERMODE);
+</script><script id="click-show-text" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/click-show-text.min.js" data-mobile="false" data-text="I,LOVE,YOU" data-fontsize="15px" data-random="false" async="async"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
