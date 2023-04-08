@@ -5,7 +5,6 @@ categorie: 面试题
 tags: Vue面试题
 ---
 
-
 ### MVVM的理解
 
 **Model 模型， View  视图，ViewModel 视图模型**
